@@ -1,0 +1,23 @@
+
+
+.contact-container{
+    width: 30%;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 2vh;
+
+}
+
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contact-container li{
+    list-style: none;
+}
+
+.contact-title{
+    text-align: center;
+    font-weight: bold;
+}

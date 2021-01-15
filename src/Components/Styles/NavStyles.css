@@ -1,0 +1,50 @@
+.nav-container{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Lucida Calligraphy";
+    align-items: center;
+
+    border-top: 10px solid black;
+    /* border-left: 5px solid black;
+    border-right: 5px solid black; */
+    border-radius: 10px;
+    border-bottom: 2px solid aliceblue;
+
+}
+
+.nav-brand{
+    width: 10%;
+    margin-right: 10px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.nav-menu{
+    float: right;
+    display: flex;
+    padding-right: 15px;
+    font-family: Lucida Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.nav-menu a:hover{
+    text-decoration: none;
+}
+
+.nav-menu .nav-item{
+    color: aliceblue;
+    padding: 5px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 5px;
+}
+
+.nav-menu .nav-item:hover{
+    text-decoration: none;
+    transform: translateY(10px)
+    
+}

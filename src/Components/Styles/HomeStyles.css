@@ -1,0 +1,159 @@
+.home-container{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    font-family: "Lucida Calligraphy";
+
+    background-position: center;
+    background-size: cover;
+
+    animation: banner 15s forwards infinite;
+    
+}
+
+@keyframes banner{
+    0%{
+        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/COE\ -\ assembly.jpg);
+
+    }
+    25%{
+        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/Convenience3.jpg);
+
+    }
+    50%{
+        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/COE\ -\ assembly\ Presentationnew.jpg);
+        
+    }
+    75%{
+        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images//Convenience2.jpg);
+        
+    }
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/First\ built.jpg);
+    }
+}
+
+
+.arcs{
+    height: 100vh;
+    background-color: aliceblue;
+    margin-top: -5vh;
+}
+
+.arc1{
+    background-color: aliceblue;
+    margin-top: 58vh;
+
+    text-align: center;
+    border: 5px;
+    width: 30%;
+    height: 8vh;
+    border-radius: 12px;
+    margin-left: 1.5rem;
+}
+.arc1 h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.arc2{
+    background-color: aliceblue;
+
+    float: right;
+    margin-right: 10em;
+    text-align: center;
+    border: 5px;
+    width: 35%;
+    height: 7vh;
+    border-radius: 12px;
+    margin-left: 1.5rem;
+    margin-top: -8vh;
+}
+
+
+.navbar{
+    height: 10vh;
+    margin-bottom: 10vh;
+    color: aliceblue;
+
+}
+
+.home-content{
+    color: aliceblue;
+    width: 100%;
+    text-align: left;
+}
+
+
+.home-content h3{
+    margin-top: 15vh;
+    font-size: 3.5rem;
+}
+
+
+.home-content h3::after{
+    content: " ";
+    /* animation: banner-ad 5s infinite; */
+}
+
+@keyframes banner-ad {
+    0%{
+    /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/COE\ -\ assembly\ Presentationnew.jpg); */
+                    
+        content: "Welcome to Visotek";
+    }
+    50%{
+        
+        content: "Visotek Engg.";
+        /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/COE\ -\ assembly\ Presentationnew.jpg); */
+        
+    }
+    100%{
+            content: "Visotek Archi.";
+
+        }
+}
+
+
+
+.subpage{
+    background-color: aliceblue;
+
+}
+
+.contact-us{
+    position: absolute;
+    left: -10rem;
+    width: 30%;
+    float: right;
+    
+}
+
+.specialities {
+    margin-top: 3vh;
+    float: right;
+    width: 60%;
+    text-align: center;
+   
+}
+
+.specialities h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.contents{
+    height: 150vh;
+    margin-right: 1.2rem;
+    float: right;
+    width: 53%;
+    margin-top: -23vh;
+    
+}
+.footer{
+    margin-top: 70vh;
+    display: flex;
+    text-align: center;
+}

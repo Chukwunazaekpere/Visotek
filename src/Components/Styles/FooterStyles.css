@@ -1,0 +1,42 @@
+
+.footer-container{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    color: aliceblue;
+
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(../images/COE\ -\ assembly\ Presentation1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.vision{
+    width: 40%;
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.vision ul{
+    margin-left: 5rem;
+    text-align: left;
+    font-size: 23px;
+    padding-top: 25px;
+}
+.mission{
+    width: 40%;
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.mission ul{
+    margin-left: 5rem;
+    text-align: left;
+    font-size: 23px;
+    padding-top: 25px;
+}

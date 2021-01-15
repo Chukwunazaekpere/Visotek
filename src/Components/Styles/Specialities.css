@@ -1,0 +1,34 @@
+
+
+.content-container{
+    background-color: ivory;
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("../images/COE\ -\ assembly.jpg");
+    color: cornflowerblue;
+    font-size: 15px;
+
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 17px;
+    
+    border: 7px solid cornflowerblue;
+    height: 177vh;
+
+    box-shadow: 10px 14px 18px 0 rgba(0,0,0,0.2), 10px 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.content-title{
+    background-color: darkgrey;
+    width: 40%;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: black;
+    margin-top: 5px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    border-right: 5px solid cadetblue;
+    border-bottom: 5px solid cadetblue;
+    
+}
