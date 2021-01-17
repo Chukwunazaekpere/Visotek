@@ -34,18 +34,14 @@
 }
 
 
-.arcs{
-    height: 100vh;
-    background-color: aliceblue;
-    margin-top: -5vh;
-}
-
 .arc1{
     background-color: aliceblue;
     margin-top: 58vh;
 
     text-align: center;
-    border: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-top: 5px;
     width: 30%;
     height: 8vh;
     border-radius: 12px;
@@ -144,7 +140,7 @@
     
 }
 
-.contents{
+.specialities-container{
     height: 150vh;
     margin-right: 1.2rem;
     float: right;
@@ -152,6 +148,8 @@
     margin-top: -23vh;
     
 }
+
+
 .footer{
     margin-top: 70vh;
     display: flex;

@@ -21,7 +21,7 @@ const Homepage = (props) => {
       </section>
 
       <section className="home-content">
-        <h3 className="animate__animated animate__heartbeat animate__infinite">
+        <h3 id="welcome-text" className="">
           Welcome to Visotek
         </h3>
       </section>

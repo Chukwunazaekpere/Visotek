@@ -11,6 +11,8 @@ const Team = () => {
                 Visotek limited constitutes of certified engineers and technicians <br/>
                 with practising duration over a decade.
             </h4>
+
+            <a href="#welcome-text">Go home</a>
         </div>
     )
 }

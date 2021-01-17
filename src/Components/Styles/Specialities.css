@@ -1,6 +1,6 @@
 
 
-.content-container{
+.specialities-container{
     background-color: ivory;
     background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("../images/COE\ -\ assembly.jpg");
     color: cornflowerblue;
@@ -17,7 +17,7 @@
     box-shadow: 10px 14px 18px 0 rgba(0,0,0,0.2), 10px 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.content-title{
+.specialities-title{
     background-color: darkgrey;
     width: 40%;
     border-radius: 3px;
@@ -31,4 +31,17 @@
     border-right: 5px solid cadetblue;
     border-bottom: 5px solid cadetblue;
     
+}
+
+.specialities-container h2{
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.specialities-container h4{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
 }
